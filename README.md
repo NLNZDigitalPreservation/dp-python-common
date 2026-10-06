@@ -7,13 +7,13 @@ Common reusable Python modules for NLNZ Digital Preservation services.
 Install from GitHub:
 
 ```bash
-pip install "git+https://github.com/NLNZDigitalPreservation/dps-common-python.git"
+pip install "git+https://github.com/NLNZDigitalPreservation/dp-python-common.git"
 ```
 
 You can also pin a branch, tag, or commit:
 
 ```bash
-pip install "git+https://github.com/NLNZDigitalPreservation/dps-common-python.git@main"
+pip install "git+https://github.com/NLNZDigitalPreservation/dp-python-common.git@main"
 ```
 
 ## Package Contents
