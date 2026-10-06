@@ -1,15 +1,4 @@
 import argparse
-from importlib import metadata
-
-from viridian import __version__ as _viridian_version
-
-
-def _get_version() -> str:
-    """Return the package version, falling back to the module constant."""
-    try:
-        return metadata.version("viridian-cli")
-    except metadata.PackageNotFoundError:
-        return _viridian_version
 
 
 def parse_args_app(app_name: str = "") -> argparse.Namespace:
