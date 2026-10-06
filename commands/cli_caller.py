@@ -6,7 +6,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 from commands.config import parse_args_app
-from viridian.utils import (
+from commands.utils import (
     run,
     select_engine,
     cmd_install,
