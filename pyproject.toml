@@ -19,15 +19,16 @@ dependencies = [
   "azure-identity>=1.26.0",
   "azure-storage-queue>=12.18.0",
   "azure-storage-blob>=12.0.0",
-  "azure-data-tables>=12.7.0"
+  "azure-data-tables>=12.7.0",
+  "python-dotenv>=1.0.0"
 ]
 
 [project.urls]
-Homepage = "https://github.com/NLNZDigitalPreservation/dps-common-python"
-Repository = "https://github.com/NLNZDigitalPreservation/dps-common-python"
+Homepage = "https://github.com/NLNZDigitalPreservation/dp-python-common"
+Repository = "https://github.com/NLNZDigitalPreservation/dp-python-common"
 
 [tool.setuptools]
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["common", "common.*", "viridian", "viridian.*"]
+include = [ "commands", "commands.*", "common", "common.*", "viridian", "viridian.*"]
